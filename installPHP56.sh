@@ -1,4 +1,5 @@
 # http://askubuntu.com/questions/756181/installing-php-5-6-on-xenial-16-04#756186
+# author: josuerodrigues@gmail.com
 
 # List installed php packages
 echo '\n============================================'
