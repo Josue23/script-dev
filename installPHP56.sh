@@ -37,6 +37,10 @@ echo '\n============================================'
 echo 'Instalando os módulos Php.'
 sudo apt-get install php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml php-pear -y
 
+echo '\n============================================'
+echo 'removendo pacotes não necessários'
+sudo apt-get autoremove
+
 # Verify your version
 echo '\n============================================'
 echo 'A versão Php instalada é: '
